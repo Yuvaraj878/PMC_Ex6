@@ -53,12 +53,10 @@ Step1: Open CubeMX & Create New Project
 Step2: Choose The Target MCU & Double-Click Its Name select the target to be programmed  as shown below and click on next 
 
  ![image](https://user-images.githubusercontent.com/36288975/226189215-2d13ebfb-507f-44fc-b772-02232e97c0e3.png)
-![image](https://user-images.githubusercontent.com/36288975/226189230-bf2d90dd-9695-4aaf-b2a6-6d66454e81fc.png)
 
-![image](https://user-images.githubusercontent.com/36288975/226189280-ed5dcf1d-dd8d-43ae-815d-491085f4863b.png)
 
 Step3: Configure Timer2 Peripheral To Operate In PWM Mode With CH1 Output
-![image](https://github.com/vasanthkumarch/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/36288975/682c851a-7dfe-4089-8395-f76088d43896)
+
 
 
 Step4: Set The RCC External Clock Source
@@ -70,7 +68,6 @@ STM32 RCC External Clock Selection CubeMX
 Step5: Go To The Clock Configuration
 
 Step6: Set The System Clock To Be 72MHz
-![image](https://github.com/vasanthkumarch/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/36288975/4ea03faa-fb90-4b31-8079-3db5f959f2c3)
 
 
 Step7: Name & Generate The Project Initialization Code For CubeIDE or The IDE You’re Using
@@ -83,7 +80,7 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 Step9. Create a new Proteus project and place STM32F40xx i.e. the same MCU for which the project was created in STM32Cube IDE. 
 14. After creation of the circuit as per requirement as shown below 
 
- ![image](https://github.com/vasanthkumarch/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/36288975/4f377f5e-bdda-489e-a416-c712c893831d)
+
 
 Step10. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
 
@@ -180,17 +177,21 @@ static void MX_TIM2_Init(void)
 ```
 
 
+## Output screen shots of Proteus:
 
-## Output screen shots of proteus  :
 ![alt text](2.png)
- 
-## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
-### FOR PULSE AT 5000 :
-![](5000.png)
-### FOR PULSE AT 7500 :
-![alt text](7500.png)
-### FOR PULSE AT 2500 :
-![alt text](2500.png)
+
+## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREENSHOT HERE):
+
+### FOR PULSE AT 5000:
+<img src="5000.png" alt="Pulse at 5000" width="400">
+
+### FOR PULSE AT 7500:
+<img src="7500.png" alt="Pulse at 7500" width="400">
+
+### FOR PULSE AT 2500:
+<img src="2500.png" alt="Pulse at 2500" width="400">
+
 
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
